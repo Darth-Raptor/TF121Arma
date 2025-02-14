@@ -1,0 +1,123 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    margin: 0;
+    padding: 0;
+    background-image: url(/images/dark-gray-background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+/*-----------------------------NAVBAR--------------*/
+.logo {
+    text-decoration: none;
+    color: #fff;
+    font-size: .75rem;
+    font-weight: bold;
+    padding-top: 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f1f1f;
+    position: sticky;
+    z-index: 980;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0PX;
+    padding-bottom: 0px;
+    margin: 0;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+.nav-links li a:hover {
+    color: #5865F2;
+}
+.cta .join-button {
+    text-decoration: none;
+    background-color: #5865F2;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+.cta .join-button:hover {
+    background-color: #4752C4;
+}
+/*------------------------------------------SECTION 1---------*/
+.section-1{
+    width: 100%;
+    height: 400px;
+    max-width: 100%;
+    overflow: hidden;
+}
+img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center bottom;
+  }
+  
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+  
+.image-container img {
+    display: block;
+    width: 100%;
+}
+  
+.text-overlay {
+    font-weight: 400;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background: rgba(0, 0, 0, 0.76);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 3em;
+  }
+  
+/*------------------------------------------SECTION 2---------*/
+.section-2 {
+    display: grid;
+    margin-top: 30px;
+    justify-items: center;
+    grid-template-columns: 1fr 2fr;
+}
+.video-container {
+    width: 100%; /* Adjust width as needed */
+    max-width: 800px;
+    margin-left: 150px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+video {
+    width: 100%; /* Makes the video responsive */
+    height: auto;
+    justify-content: left;
+}
+.about-121 {
+    max-width: 800px;
+}
+.about-121 h1, h2 {
+    text-align: center;
+    margin: 0;
+}

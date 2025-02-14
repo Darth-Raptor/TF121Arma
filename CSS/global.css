@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&family=Orbitron:wght@400..900&display=swap');
+
+/* -------------Global Styles---------------- */
+body {
+    background-color: rgb(37, 37, 37);
+    color: white;
+    
+}
+/* -------------Section Styles---------------- */
+header {
+    font-family: orbitron;
+    text-transform: uppercase;
+}
+body {
+    font-family: michroma;
+}
+/* -------------Individual Styles---------------- */
+h1 {
+    text-transform: uppercase;
+}
+h2 {
+    text-transform: uppercase;
+}

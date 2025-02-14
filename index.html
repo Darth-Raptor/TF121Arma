@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASKFORCE 121 - Home</title>
+    <link rel="stylesheet" href="CSS\global.css">
+    <link rel="stylesheet" href="CSS\index.css">
+    <link rel="icon" href="images/tf121favicon.png" type="image/x-icon">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <H1>tf 121</H1>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home"> </a></li>
+            <li><a href="#about"> </a></li>
+            <li><a href="#units"> </a></li>
+            <li><a href="#resources"> </a></li>
+            <li><a href="#contact"> </a></li>
+        </ul>
+        <div class="cta">
+            <a href="#join" class="join-button">Join Now</a>
+        </div>
+    </nav>
+    </header>
+    <aside>
+        <div class="video-background">
+            <video id="background-video" autoplay muted loop playsinline>
+              <source src="/Videos/WebsiteHomepage1.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+    <div class="container">
+        <div class="header">
+            <div class="images">
+                <img id="img1" src="/images/160thlogo.png" alt="160th SOAR">
+                <img id="img2" src="/images/24th.png">
+                <img id="img3" src="/images/cag.png" alt="CAG">
+                <img id="img4" src="images/tf121favicon.png" alt="TF121 Logo">
+                <img id="img5" src="/images/mako.png" alt="MAKO">
+                <img id="img6" src="/images/Rangers.png" alr="RANGERS">
+                <img id="img7" src="/images/528th.png" alt="528th">
+            </div>
+            <div class="heading">
+                <h1>TASKFORCE 121</h1>
+                <h2>"The Tip Of The Spear"</h2>
+            </div>
+            <div class="links">
+                <div class="about-link">
+                <a href="#about-tf121" class="about-button">ABOUT TF121</a>
+                </div>
+                <div Class="discord-link">
+                <a href="https://discord.gg/your-server-code" target="_blank" rel="noopener noreferrer">
+                    <img src="/images/Discord-logo.png" alt="Discord Icon"> Join Discord
+                </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </aside>
+    <script>
+        // Get the video element
+        var video = document.getElementById("background-video");
+    
+        // Set the start time (in seconds)
+        var startTime = 28; // For example, start at 30 seconds
+    
+        // Set the current time to the start time when the video is loaded
+        video.addEventListener("loadeddata", function() {
+          video.currentTime = startTime;
+        });
+      </script>
+
+
+</body>
+</html>
